@@ -46,6 +46,14 @@
         "lines": 100,
         "statements": 100
       }
-    }
+    },
+    "testMatch": [
+      "**/__tests__/**/*.js",
+      "**/?(*.)+(spec|test).js",
+      "counter.test.js" 
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.24.1"
   }
 }
