@@ -9,7 +9,7 @@ beforeEach(() => {
 })
 
 test('renders counter message', () => {
-  const counterMessage = "Counter0 +  - ";
+  const counterMessage = "Counter0 +  - "; //default counter display
   expect(document.body.textContent).toContain(counterMessage);
 });
 
